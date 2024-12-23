@@ -16,7 +16,7 @@ int main() {
 
     vector<string> grades = {"A", "B+", "B", "C+", "C", "D+", "D", "F", "W"};
 
-    string predictedGrade = grades[rand() % grades.size()];
+    string predictedGrade = grades[rand() % 9];
 
     cout << "\nYou will get " << predictedGrade << " in this 261102." << endl;
 
